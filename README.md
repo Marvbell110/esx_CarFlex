@@ -8,4 +8,4 @@ Add all the files to [esx] folder in the resources folder.
 
 Add this to server.cfg => start esx_CarFlex
 
-Clean the cache and start the Server.
+Clean the cache and start the server.
