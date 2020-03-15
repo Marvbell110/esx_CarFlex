@@ -10,7 +10,7 @@ AddEventHandler("carflex:payTicket", function(price, car)
     	if xPlayer.getMoney() >= price then
         	xPlayer.removeMoney(price)
 		TriggerClientEvent("carflex:createcar", _source, car)
-	elseif  xPlayer.getAccount('bank').money >= price then
+	elseif xPlayer.getAccount('bank').money >= price then
 		xPlayer.removeAccountMoney('bank', price)
 		TriggerClientEvent("carflex:createcar", _source, car)
 	else
