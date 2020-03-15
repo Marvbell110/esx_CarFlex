@@ -1,5 +1,10 @@
-resource_manifest_version '05cfa83c-a124-4cfa-a768-c24a5811d8f9'
-resource_version '1.0'
+fx_version 'adamant'
+
+game 'gta5'
+
+description 'ESX CarFlex'
+
+version '1.3'
 
 dependency 'NativeUI'
 
@@ -9,7 +14,7 @@ client_scripts {
     'config.lua',
     'client/spawn.lua',
     'client/carflex.lua',
-	'client/menu.lua',
+    'client/menu.lua',
     'client/client.lua'
 }
 
